@@ -1,0 +1,30 @@
+.cart-board__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    color:black;
+}
+.catText{
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5vw;
+}
+
+hr{
+  width:80%;
+}
+
+@media (max-width: 600px) {
+  .cart-board__containe {
+    flex-direction: column;
+  }
+
+}
+
+

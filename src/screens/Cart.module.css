@@ -1,0 +1,32 @@
+.cart{
+    position:fixed;
+    font-family: 'Roboto Mono', monospace;
+    top:1.5rem;
+    right:4rem;
+    background: white;
+    font-size: 0.6rem;
+    color:black;
+    border-top: 3px solid green;
+    z-index: 100;
+    min-height:10rem ;
+    max-width: 10rem;
+    padding: 0.5rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+}
+
+.priceRupees{
+    vertical-align: middle;
+}
+.rupee{
+    vertical-align: middle;
+    font-size:0.9rem;
+}
+.finalPrice{
+    border-top: 3px dashed rgb(98, 98, 98);
+    position: absolute;
+    width: 88%;
+}
+.priceFinalRupees{
+    font-size:0.7rem;
+}

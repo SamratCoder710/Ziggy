@@ -1,0 +1,52 @@
+.header{
+    font-size: 3rem;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #3a3a3a;
+    background-color: rgb(242, 234, 236);
+    text-transform: uppercase;
+}
+/* CSS Style */
+.order-history {
+  background-color: #E6F1F0; /* Light greenish-blue background */
+  padding: 10px;
+  margin: 10px;
+}
+
+.order {
+  border-bottom: 1px solid #B3CEC2; /* Light greenish-blue border */
+  padding: 10px 0;
+}
+
+.order-date {
+  font-size: 1.2em;
+  color: #2A4849; /* Dark greenish-blue text color */
+  margin-bottom: 5px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.order-item .item-name {
+  font-weight: bold;
+  color: #2A4849; /* Dark greenish-blue text color */
+  flex: 1;
+}
+
+.order-item .item-qty,
+.order-item .item-price {
+  color: #6F8A87; /* Light greenish-blue text color */
+}
+
+.order-item .item-qty {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+}
+
+

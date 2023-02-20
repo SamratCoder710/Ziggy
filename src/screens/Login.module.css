@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.loginHeading{
+    color:rgb(79, 79, 79);
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.close{
+    cursor:pointer;
+}
+
+#form input{
+    width: 70%;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    margin: 0.5rem;
+    height: 1.5rem;
+    border:1.5px solid rgb(164, 164, 164);
+    border-radius:0.2rem;
+}
+#form button{
+    width: 88%;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    margin: 0.5rem;
+    height: 2rem;
+    border:1.5px solid  rgb(239, 79, 95);
+    background-color: rgb(239, 79, 95);
+    color:white;
+    border-radius:0.2rem;
+}
+
+#form button:hover{
+    border:1.5px solid rgb(184, 48, 62);
+    background-color: rgb(184, 48, 62);
+    cursor: pointer;
+}
+
+#form input:focus-visible{
+    border:1.5px solid green;
+    outline: none;
+}
+
+#form span{
+    position: relative;;
+    right:2.2rem;
+    vertical-align: middle;
+}
+
+.lineLogin{
+    margin-top: 3rem;
+}
+.lineSignup{
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.newText,
+.linkText{
+    font-size: 0.8rem;
+}
+.linkText{
+    color: rgb(239, 79, 95);;
+}
+.formError{
+    width:88%;
+    padding-left: 1rem;
+    color:rgb(176 55 55);
+    font-size: 0.7rem;
+    background-color: #f2dede;
+}
